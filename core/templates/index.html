@@ -1,3 +1,37 @@
-
-
-<a href="{% url 'treinamentos' %}">Lista de Treinamentos</a>
+{% load static %}
+<!DOCTYPE html> 
+<html> 
+	<head>      
+		<meta charset = "utf-8">
+		<title> Título Qualquer </title>
+		<link rel="stylesheet" type="text/css" href="{% static 'css/estilo.css' %}">
+		<style>
+			h3{
+				margin-bottom: 10px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">			
+			<h1 class="titulo">RH ID Gestor</h1>			
+			<div id="internal-container">				
+				<div id="conteudo">
+					<h2>Controle de Treinamento</h2>
+						<div id="search-box">
+							<h3>CNPJ: <input type="text" placeholder="Entre com um CPF/CNPJ válido" maxlength="18" size="30" required/></h3>
+							<button id="pesquisar">Pesquisar</button>
+						</div>		
+						<h3>Nome: <input type="text" size="35"/></h3>	
+						<h3 class="status">Status: <select class="combo" required>
+						<option value="selecione">Selecione</option>
+						<option value="valor1">Já Treinado</option>
+						<option value="valor2">Aguard. Treinamento</option>
+						<option value="valor3">Pendente</option>
+						</select></h3>
+						<h3>Observação: <textarea id="textarea" placeholder="Digite aqui." minlength="400"></textarea></h3>
+						<button id="salvar">Salvar</button>
+				</div>
+			</div>			
+		</div>
+	</body>
+</html>		

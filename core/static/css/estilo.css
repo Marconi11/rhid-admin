@@ -1,0 +1,76 @@
+body{
+	background-color: teal;
+}
+
+#internal-container{
+	background-color: rgb(210, 210, 210);
+	width: 460px;
+	height: 310px;
+	border-style: solid;
+	position: absolute;
+	top: 25%;
+	left: 35%;	
+	}
+
+#external-container{
+	
+}	
+
+#conteudo{
+	margin-left: 10px;
+}
+
+#search-box{
+	display: flex;
+	justify-content: space-between;
+}
+
+div > div > div > h2{
+	padding-top: 0px;
+	text-align: center;
+}
+
+.titulo{
+	text-align: center;
+	font-size: 250%;
+	margin-left: 50px;
+	margin-top: 100px;	
+}
+
+#textarea{
+	resize: none;
+	width: 300px;
+
+}
+
+#pesquisar{
+	margin-right: 10px;
+	width: 75px;
+	height: 20px;
+	margin-top: 20px;
+}
+
+#salvar{
+	float: right;
+	margin-top: 10px;
+	margin-right: 10px;
+	width: 60px;
+}
+
+div > div > div > div > h3::after {
+content:"*"; 
+color: #e32;
+position: absolute; 
+margin: 0px 0px 0px 5px; 
+font-size: 30px; 
+padding: 0 5px 0 0; }
+
+.status:after{
+content:"*"; 
+color: #e32;
+position: absolute; 
+margin: 0px 0px 0px 10px; 
+font-size: 30px; 
+padding: 0 5px 0 0; 
+}
+
