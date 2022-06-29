@@ -1,0 +1,48 @@
+body{
+	background-color: teal;
+}
+
+#internal-container{
+	background-color: rgb(210, 210, 210);
+	width: 500px;
+	border: solid;
+	height: 350px;
+	position: absolute;
+	top: 25%;
+	left: 32%;
+}
+
+.conteudo{
+	margin-left: 10px;
+}
+
+.container-head{
+	text-align: center;
+	margin-top: 20px;
+}
+
+.page-title{
+	font-size: 300%;
+	margin-left: 20px;
+}
+
+.rhid-image{
+	text-align: center;
+}
+
+#email{
+	margin-left: 1px;
+}
+
+.botao{
+	text-align: center;
+	margin-top: 40px;
+}
+
+.pwd{
+	margin-top: 15px;
+}
+
+/*#senha{
+	margin-left: 4px;
+}*/
