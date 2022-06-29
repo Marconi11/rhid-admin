@@ -30,7 +30,7 @@ def lista_cliente(request):
     clientes = Cliente.objects.all()
     context = {
         cliente
-    }
+    }   
     return render(request, 'list-treinamento.html')
 
 def treinamento_detalhe(request):
@@ -44,3 +44,7 @@ def lista_sistema(request):
 
 def sistema_detalhe(request):
     return render(request, 'list-treinamento.html')
+
+
+def cadastro_clientes(request):
+    return render(request, 'cliente.html')
