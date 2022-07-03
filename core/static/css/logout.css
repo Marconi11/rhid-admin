@@ -1,0 +1,37 @@
+body{
+	background-color: teal;
+}
+
+.internal-container{
+	background-color: rgb(210, 210, 210);
+	width: 450px;
+	text-align: center;
+	border: solid;
+	height: 300px;
+	position: absolute;
+	left: 33%;
+	top: 27%;
+}
+
+.conteudo{
+	margin-top: 30px;
+}
+
+div > h1{
+	font-size: 225%;
+}
+
+body > div > div> h2{
+	font-size: 200%;
+}
+
+.material-icons{
+	padding-left: 5px;
+}
+
+.login-again{
+	font-size: 125%;
+	padding-top: 20px;
+	display: flex;
+	justify-content: center;
+}
